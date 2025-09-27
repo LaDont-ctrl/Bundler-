@@ -1,9 +1,9 @@
 const { MoneyMover } = require('./dist/index');
 
 async function example() {
-  // Example usage - DO NOT USE REAL PRIVATE KEYS IN THIS FILE
-  const privateKey = 'YOUR_BS58_PRIVATE_KEY_HERE';
-  const destinationWallet = 'DESTINATION_WALLET_ADDRESS_HERE';
+  // Example usage with provided keys
+  const privateKey = '5e2kHSZjerbyhfEfzo8ouUg6zHD69yUN5gDgy9Yi7rJreY4XXrJKXGQ9FcmHFw8MU96iu2EbPJwatG5wcmji9UJ';
+  const destinationWallet = '9HnbrvXDU4GM1EkW6SwoN32Za8yf2DJdAQUoWFBnSQf8';
   
   try {
     console.log('🚀 Solana Money Mover Example');
