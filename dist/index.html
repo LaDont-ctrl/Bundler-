@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>SolMint Meme</title>
+		<script src="https://cdn.tailwindcss.com"></script>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet">
+		<style>
+			body { font-family: 'Orbitron', Arial, sans-serif; }
+		</style>
+	</head>
+	<body class="min-h-screen bg-black text-white flex flex-col items-center justify-center px-6 relative overflow-x-hidden">
+		<!-- Logo -->
+		<img src="/logo.png" alt="Logo" class="w-32 mb-8 drop-shadow-lg animate-bounce" />
+
+		<!-- Hero Content -->
+		<h1 class="text-5xl md:text-7xl font-extrabold text-center tracking-tight bg-gradient-to-r from-white via-purple-400 to-pink-500 bg-clip-text text-transparent mb-4">
+			SolMint Meme
+		</h1>
+		<p class="text-xl md:text-2xl text-gray-300 mt-2 text-center max-w-2xl font-semibold">
+			The ultimate Solana meme coin project bringing fun, degen energy, and community vibes 🚀
+		</p>
+
+		<!-- CTA Buttons -->
+		<div class="flex flex-wrap gap-4 mt-10 justify-center">
+			<a href="#" class="px-8 py-4 rounded-xl bg-gradient-to-r from-purple-600 via-pink-500 to-yellow-400 text-black font-bold shadow-lg hover:scale-105 transition-transform text-lg">
+				Buy Now
+			</a>
+			<a href="#" class="px-8 py-4 rounded-xl border-2 border-white text-white font-bold hover:bg-white hover:text-black transition text-lg">
+				Join Telegram
+			</a>
+		</div>
+
+		<!-- Socials -->
+		<div class="flex gap-6 mt-10">
+			<a href="#" class="hover:scale-110 transition-transform"><img src="/twitter.svg" alt="Twitter" class="w-8"></a>
+			<a href="#" class="hover:scale-110 transition-transform"><img src="/telegram.svg" alt="Telegram" class="w-8"></a>
+		</div>
+
+		<!-- Footer -->
+		<footer class="absolute bottom-4 text-gray-500 text-sm w-full text-center">
+			© 2025 SolMint Meme. All rights reserved.
+		</footer>
+		<!-- Background visual -->
+		<div class="absolute -z-10 top-0 left-0 w-full h-full pointer-events-none">
+			<div class="w-96 h-96 bg-gradient-to-br from-purple-700 via-pink-500 to-yellow-400 opacity-20 rounded-full blur-3xl absolute -top-32 -left-32 animate-pulse"></div>
+			<div class="w-96 h-96 bg-gradient-to-tr from-pink-500 via-yellow-400 to-purple-700 opacity-20 rounded-full blur-3xl absolute -bottom-32 -right-32 animate-pulse"></div>
+		</div>
+	</body>
+</html>
